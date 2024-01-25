@@ -1,0 +1,26 @@
+.section-about{
+    background-color: $color-grey-light-1;
+    margin-top: -20vh;
+    padding: 25rem 0;
+    background-color: #e4ffe5;
+}
+
+.section-features{
+    padding: 20rem 0;
+    background-image: linear-gradient(to right bottom,
+        rgba($color-primary-light, 0.804),
+        rgba($color-primary-dark, 0.345)),
+      url(../img/nat-4.jpg);
+      background-size: cover;
+      transform: skewY(-7deg);
+     margin-top: -10rem;
+
+      & > *{
+        transform: skewY(7deg);
+      }
+}
+
+.secton-tours{
+  background-color:#e4ffe5;
+  padding: 25rem 0 50rem 0;
+}
